@@ -1,7 +1,7 @@
 # 📚 BLIP Q-Former Tutorial
 
 
-![Q-Former Architecture]qformer_archi.png)
+![Q-Former Architecture](qformer_archi.png)
 
 ## 소개
 이 프로젝트는 **BLIP (Bootstrapping Language-Image Pretraining)** 모델의 핵심 모듈인  
