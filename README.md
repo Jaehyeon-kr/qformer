@@ -1,9 +1,10 @@
-# 📚 BLIP Q-Former Tutorial
+# BLIP Q-Former Tutorial
 
 
 ![Q-Former Architecture](qformer_archi.png)
 
-## 소개
+## Introduction
+
 이 프로젝트는 **BLIP (Bootstrapping Language-Image Pretraining)** 모델의 핵심 모듈인  
 **Q-Former (Query Transformer)** 학습 및 실험을 위한 코드 베이스입니다.  
 
@@ -13,7 +14,7 @@ Q-Former는 **이미지 인코더(ViT 등)**에서 추출한 시각적 토큰들
 
 ---
 
-## 아키텍처
+## Architecture
 
 
 이미지 (ViT) ─▶ 비주얼 피쳐 ─┐
@@ -28,7 +29,7 @@ Query Token ──┼──▶ Q-Former (BERT-like Transformer)
 - **텍스트 인코더**: HuggingFace `BERT`/`RoBERTa`/`T5` 등 확장 가능  
 
 ---
-## 📜 참고 논문
+## Reference
 
 BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation (Li et al., 2022)
 
