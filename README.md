@@ -17,16 +17,16 @@ Q-Former는 **이미지 인코더(ViT 등)**에서 추출한 시각적 토큰들
 ## Architecture
 
 
-이미지 (ViT) ─▶ 비주얼 피쳐 ─┐
+IMG (ViT) ─▶ Visual Feature ─┐
 │
 Query Token ──┼──▶ Q-Former (BERT-like Transformer)
 │
-텍스트 (Tokenizer) ───────────┘
+Text (Tokenizer) ───────────┘
 
 
-- **이미지 인코더**: `ViT-B/16`, `EVA-CLIP`, `SigLIP` 등 사용 가능  
+- **Image Encoder**: `ViT-B/16`, `EVA-CLIP`, `SigLIP` 등 사용 가능  
 - **Q-Former**: BERT 구조 기반, Self-Attention + Cross-Attention 레이어 포함  
-- **텍스트 인코더**: HuggingFace `BERT`/`RoBERTa`/`T5` 등 확장 가능  
+- **Text Encoder**: HuggingFace `BERT`/`RoBERTa`/`T5` 등 확장 가능  
 
 ---
 ## Reference
