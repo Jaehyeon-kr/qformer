@@ -35,4 +35,4 @@ BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Unde
 
 BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models (Li et al., 2023)
 
-SEED-X: Multimodal Models with Unified Multi-granularity Comprehension and Generation
+SEED-X: Multimodal Models with Unified Multi-granularity Comprehension and Generation (Yuying Ge et al., 2024, CVPR)
